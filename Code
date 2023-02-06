@@ -36,7 +36,7 @@ player.Chatted:Connect(function(message)
     loadstring(script)()
 
   elseif message == ".search" then
-    local script = game:https://raw.githubusercontent.com/lostbunny489/search-/main/Code")
+    local script = game:HttpGet("https://raw.githubusercontent.com/lostbunny489/search-/main/Code")
     loadstring(script)()
   end
 end)
